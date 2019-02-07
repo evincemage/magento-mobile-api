@@ -4,7 +4,7 @@ Evince Mobile API extension provide you to integrate mobile api by just installi
 ## Overview
 Do you want to develop your own Magento mobile api? Great! We will provide you the awesome thing that will help you to create Magento mobile api with just installing the extension. You all need to just enable to create your own custom api with Magento default functionality. Awhile ago, Magento was released for iPhone, iPad and Android devices. It consists of two parts: a Magento web store, and a native application itself.
 
-Evince Mobileapi extension’s purpose here is to serve your application with requested data (category listing, product information, etc.) and execute desired actions (buy, log in, checkout, etc.). Basically, application sends a request (plain HTTP GET/POST) to your Magento store and it responds with an JSON result.
+Evince Mobile API extension’s purpose here is to serve your application with requested data (category listing, product information, etc.) and execute desired actions (buy, log in, checkout, etc.). Basically, application sends a request (plain HTTP GET/POST) to your Magento store and it responds with an JSON result.
 
 Note : This magento api extension is implemented by custom code and fully integrated with core customization. We also have the mobile application for Android and iPhone devices. If we you want the mobile application or want to make any other customization in api then contact us.
 
