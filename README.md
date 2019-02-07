@@ -1,5 +1,5 @@
 # Mobile API For Magento 1
-Evince Mobileapi extension provide you to integrate mobile api by just installing the extension.
+Evince Mobile API extension provide you to integrate mobile api by just installing the extension.
 
 ## Overview
 Do you want to develop your own Magento mobile api? Great! We will provide you the awesome thing that will help you to create Magento mobile api with just installing the extension. You all need to just enable to create your own custom api with Magento default functionality. Awhile ago, Magento was released for iPhone, iPad and Android devices. It consists of two parts: a Magento web store, and a native application itself.
@@ -21,7 +21,7 @@ Note : This magento api extension is implemented by custom code and fully integr
 * Support Magento 1.7, 1.8 and latest Magento Extension
 
 ## Supported Magento Versions
-One Product For Magento 1 compatible with: 1.7, 1.8, 1.8.1, 1.9	
+Mobile API For Magento 1 compatible with: 1.7, 1.8, 1.8.1, 1.9	
 
 ## Support
 If you find any issues with plugin or need the installation support, please contact support@evincemage.com
