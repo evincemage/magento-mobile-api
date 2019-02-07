@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <Evince_Mobileapi>
+      <version>0.1.0</version>
+    </Evince_Mobileapi>
+  </modules>
+  <frontend>
+		<routers>
+			<mobileapi>
+				<use>standard</use>
+				<args>
+					<module>Evince_Mobileapi</module>
+					<frontName>Mobileapi</frontName>
+				</args>
+			</mobileapi>
+		</routers>
+		<layout>
+		  <updates>
+			<mobileapi>
+			  <file>mobileapi.xml</file>
+			</mobileapi>
+		  </updates>
+		</layout>
+		
+    </frontend>
+  <global>
+ <!-- <models>
+            <mobileapi>
+                <class>Evince_Mobileapi_Model</class>
+            </mobileapi>
+        </models>-->
+    <helpers>
+      <mobileapi>
+        <class>Evince_Mobileapi_Helper</class>
+      </mobileapi>
+    </helpers>
+  </global>
+</config> 

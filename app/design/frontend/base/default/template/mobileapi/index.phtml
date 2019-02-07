@@ -1,0 +1,18 @@
+<?php
+// Added By Gaurang for APP 
+ $orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+  $order = Mage::getModel('sales/order')->loadByIncrementId($orderId);
+    $value = json_decode(file_get_contents('php://input'));
+	
+if($_SESSION['customer_base']['device'] == 'app') {
+	?>
+	<script type="text/javascript">
+		//window.top.location.href = "http://192.168.1.2:82/axomart/magentoapi/checkoutsuccess?orderid=<?php //echo $this->getOrderId()?>";
+		window.top.location.href = "<?php echo Mage::getStoreConfig('web/unsecure/base_url');?>Mobileapi/index/customapi_success?orderid=<?php echo $value->orderid?>";
+	</script>
+    
+<?php exit;
+
+	//header('Location: http://192.168.1.2:82/axomart/axomartapi_success.php?orderid='.$this->getOrderId());
+	//exit;
+}

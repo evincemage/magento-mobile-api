@@ -1,0 +1,15 @@
+<?xml version="1.0"?>   
+<layout>   
+  <default>   
+    <reference name="header">   
+      <block type="core/template" name="mobileapi_mobileapi" template="mobileapi/mobileapi.phtml" output="toHtml"/>   
+    </reference> 
+	  
+  </default>
+   <checkout_onepage_success>   
+  <reference name="before_body_end">   
+      <block type="core/template" name="mobileapi_mobileapi" template="mobileapi/index.phtml" output="toHtml"/>   
+    </reference> 
+	 </checkout_onepage_success> 
+</layout>   
+	

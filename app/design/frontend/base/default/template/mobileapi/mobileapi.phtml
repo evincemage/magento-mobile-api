@@ -1,0 +1,11 @@
+<?php
+if($_SESSION['customer_base']['device'] == 'app') {?>
+<script type="text/javascript">
+jQuery("#appbtnclick").click(function() {
+	jQuery('#review-please-wait').css('display','block');
+});
+</script>
+<?php
+echo '<style>.header-container, .footer-container, .opc-col-left, .opc-wrapper-opc h2, .text-login{display:none;}.opc-col-center{display:block !important;} .zopim{ display:none;} .opc-messages{width:260px; margin-left:-130px;} .opc-wrapper-opc .btn-checkout.button-disabled span span{background-image:none; #review-buttons-container .btn-checkout{display:block !important;}}</style>';	
+}
+?>
